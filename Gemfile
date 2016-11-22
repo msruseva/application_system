@@ -32,6 +32,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Use devise for login
+gem 'devise'
+# Use bootstrap-sass for front-end
+gem 'bootstrap-sass'
+# Gem for static pages
+gem 'high_voltage'
+# Haml replacement for inline page templating systems
+gem 'haml-rails', '>= 0.3.4'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
